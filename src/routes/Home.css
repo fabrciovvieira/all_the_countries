@@ -164,3 +164,37 @@
 
     
 }
+
+@media (max-width: 320px) {
+    .globe {
+        width: 105px;
+        height: 105px;
+    }
+    .filter-navbar {
+        gap: 0rem;
+        margin-bottom: -5rem;
+    }
+    .filter-navbar input,
+    .filter-navbar select {
+        font-size: 0.9rem;
+        width: 95px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 290px) {
+    .globe {
+        width: 100px;
+        height: 100px;
+    }
+    .filter-navbar {
+        gap: 0rem;
+        margin-bottom: -5rem;
+    }
+    .filter-navbar input,
+    .filter-navbar select {
+        font-size: 0.9rem;
+        width: 90px;
+        height: 30px;
+    }
+}
