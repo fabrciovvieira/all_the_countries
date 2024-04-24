@@ -20,7 +20,7 @@ const CardCountry = () => {
 
   useEffect(() => {
     if (pais) {
-      navigate(`/country/${pais}`);
+      navigate(`/all_the_countries/country/${pais}`);
     }
   }, [pais, navigate]);
 
