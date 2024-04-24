@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    height: 30px;
+    margin: auto;
+    width: 100%;
+    backdrop-filter: blur(50px)
+}
+
+.footer p {
+    align-items: center;
+    text-align: center;
+}

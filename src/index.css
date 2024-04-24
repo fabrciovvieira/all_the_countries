@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
+}
+
+:root {
+    --background-colour: white;
+    --background-colour-card: #fff;
+    --hover: #fff;
+    --hover-font: #000;
+    --navBar-bg-colour: #fff;
+    --colour-font: #0a0a0a;
+    --toggle-bg: #f0eb9d;
+    --toggle-fg: #ffd000;
+    --lua: #283452;
+    --borda: #000;
+    --card-bg-colour: #fff;
+    --mapa-globe: url('https://imagenes.serpadres.es/uploads/2024/01/15/65a510deb4b25.jpeg');
+    --shadow-light: rgba(255, 255, 255, 0.8);
+    --shadow-dark: rgba(0, 0, 0, 0.8);
+    --shadow-card: rgb(133, 133, 133);
+    --span-bg: #ddd;
+}
+
+[data-theme="dark"] {
+    --background-colour: #202c37;
+    --background-colour-card:  #2b3945;
+    --navBar-bg-colour: #2b3945;
+    --colour-font: #f6f6f6;
+    --toggle-bg: #283452;
+    --toggle-fg: #00a6ff;
+    --lua: #ffd000;
+    --borda: #fff;
+    --card-bg-colour: #202c37bc;
+    --mapa-globe: url('https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    --shadow-light: rgba(86, 122, 255, 0.8);
+    --shadow-dark: rgba(0, 0, 0, 0.8);
+    --shadow-card: none;
+    --span-bg: #2b3945;
+    --hover: #fff;
+    --hover-font: #f6f6f6;
+}
+
+p, span, h1, h2, h3, h4, h5, h6 {
+    color: var(--colour-font);
+}
+
+.icones {
+    fill: var(--lua);
+}
+
+a {
+    text-decoration: none;
+    color: var(--colour-font);
+}
+
+.error-page {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    gap: 0.5rem;
+    color: var(--colour-font);
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: var(--background-colour-card);
+    color: var(--colour-font);
+    border: none;
+    cursor: pointer;
+    border: 1px solid var(--borda);
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+
+}
+
+.container-btns {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0.7rem;
+    margin: auto;
+}
+
+
+/* config Loading */
+
+.loading {
+    border: 4px solid #cdcdcd;
+    border-left-color: #0000009b;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 3rem;
+    top: 50%;
+    position: fixed;
+    left: 50%;
+}
+
+@keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+}

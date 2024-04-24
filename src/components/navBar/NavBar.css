@@ -1,0 +1,35 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1.5rem;
+    border-bottom: 1px solid var(--borda);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    backdrop-filter: blur(50px)
+}
+
+.container-toggle {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+@media (max-width: 375px) {
+    .navbar-container {
+        padding: 0.5rem 1rem;
+    }
+    .navbar-container h2 {
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .navbar-container {
+        padding: 0.5rem 0.7rem;
+    }
+
+}

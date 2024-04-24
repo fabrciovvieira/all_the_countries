@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--background-colour);
+    transition: background-color 0.25s ease-in-out;
+    /* height: 100vh; */
+  }
+
+  .container-globe {
+    display: flex;
+    justify-content: center;
+    margin: 5rem auto 2rem;
+  }
