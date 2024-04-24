@@ -125,7 +125,7 @@
         font-size: 0.7rem;
     }
 }
-@media (max-width: 475px) {
+@media (max-width: 500px) {
     .container-cardPage {
         height: 150vh;
     }

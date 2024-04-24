@@ -113,7 +113,7 @@
     }
     
 }
-@media (max-width: 475px) {
+@media (max-width: 500px) {
     .container-home {
         display: flex;
         justify-content: center;
