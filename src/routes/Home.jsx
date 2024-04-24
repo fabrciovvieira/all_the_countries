@@ -44,7 +44,7 @@ const Home = () => {
       </div>
       <div className='container-home'>
         {filteredResults.map((country) => (
-          <Link to={`/country/${country.name.common}`}>
+          <Link to={`/all_the_countries/country/${country.name.common}`}>
             {/*QUERO ENVIAR JUNTO COM O LINK O COUNTRY.BORDERS*/}
             <div className="card-home-country" key={country.alpha3Code}>
               <div className="flag" style={{ backgroundImage: `url(${country.flags.png})` }}></div>

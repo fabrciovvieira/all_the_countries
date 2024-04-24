@@ -7,7 +7,7 @@ import { FaRegMoon, FaRegSun } from 'react-icons/fa'
 const NavBar = ({ isDark, setIsDark }) => {
   return (
     <div className='navbar-container'>
-      <Link to="/">
+      <Link to="/all_the_countries">
         <h2>ALL THE COUNTRIES</h2>
       </Link>
       <div className="container-toggle">
