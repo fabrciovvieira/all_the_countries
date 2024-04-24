@@ -9,16 +9,16 @@ import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/all_the_countries',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: '/',
+        path: '/all_the_countries',
         element: <Home />
       },
       {
-        path: '/country/:name',
+        path: '/all_the_countries/country/:name',
         element: <CardCountry />
       }
     ]
